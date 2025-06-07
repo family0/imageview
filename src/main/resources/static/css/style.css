@@ -1,0 +1,33 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+}
+.title-link {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #333;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 무조건 6열 */
+}
+.grid-item {
+  text-align: center;
+}
+.item-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.item-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

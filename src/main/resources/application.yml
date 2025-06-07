@@ -3,3 +3,6 @@ spring:
     name: imageview
 server:
   port: 10000
+base-path: E:\e
+viewer: C:\Program Files\Honeyview\Honeyview.exe
+placeholder: "https://placehold.co/640/webp?text=No+Cover"

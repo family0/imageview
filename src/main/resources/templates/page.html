@@ -11,13 +11,10 @@
   <header>
     <a class="title-link" th:href="${parent}" th:text="${title}"></a>
   </header>
-  <main oncontextmenu="openImg()">
-    <div class="grid-item" th:each="item : ${list}">
-      <a class="item-link" th:href="${item.href}">
-        <span th:text="${item.name}"></span>
-        <img class="item-img" th:src="${item.url}" alt="..." />
-      </a>
-    </div>
+  <main>
+    <a th:href="${page.next}">
+      <img th:src="${page.src}" alt="..." />
+    </a>
   </main>
 </div>
 <script src="/js/main.js"></script>
